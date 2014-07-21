@@ -2,8 +2,9 @@
 
 source "http://rubygems.org"
 
-gem "rails", "4.0.0.rc1"
+gem "rails", :github=>"rails/rails", :branch=>"4-1-stable"
 gem "jquery-rails"
-gem "sass-rails", "4.0.0.rc1"
+gem "sass-rails"
+gem "sqlite3"
 
 gemspec :path=>"../"
